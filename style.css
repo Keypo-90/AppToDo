@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+.flex {
+    background-color: darkgrey;
+
+
+}
+
+
+
+h1 {
+    text-align: center;
+    padding: 30px
+}
+
+.Diaria {
+    max-width: 600px;
+    background-color: darkseagreen;
+}
+
+.Mensual {
+    max-width: 600px;
+    background-color: dodgerblue;
+}
+
+.Urgente {
+    max-width: 600px;
+    background-color: brown;
+    color: white;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 30px;
+
+    & td {
+
+        width: 500px;
+        border: solid 5px white;
+        text-align: center;
+
+    }
+}
+
+.domTareas {
+    width: 500px;
+    margin-left: 40%;
+    height: 200px;
+
+}
